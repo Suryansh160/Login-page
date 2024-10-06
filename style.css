@@ -1,0 +1,102 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("wallpaperflare.com_wallpaper.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.outerMost{
+    background-color: transparent;
+    height: 65vh;
+    width: 27%;
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    padding-left: 60px;
+     /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 
+.upper{
+    height: 20vh;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.username{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.password{
+    background-color: transparent;
+}
+.haha{
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+    width: 75%;
+   height: 8vh;
+    background-color: transparent;
+    padding-left: 20px;
+    border: 2px solid white;
+    align-items: center;
+    
+    
+}
+
+.haha input:hover{
+    outline: none;
+}
+.haha input{
+    width: 60%;
+    height: 05vh;
+ padding-top: 10px;
+ margin-right: 5px;
+ outline: none;
+    background-color: transparent;
+    border: none;
+    /* border-radius: 55px; */
+    /* border: 2px solid white; */
+}
+.login{
+    display:flex;
+    color: white;
+    justify-content: space-around;
+    padding-right: 10%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+.haha placeholder{
+    color: white;
+    padding: 15px;
+}
+.rememberMe{
+    width: 125px;
+    
+}
+.middle{
+display: flex;
+font-family: "Ubuntu", sans-serif;
+color: white;
+justify-content: space-around;
+padding-top: 3vh;
+}
+.text{
+    width: 125px;
+}
+.button{
+    
+    height: 20vh;
+    padding-left: 10%;
+    padding-top: 12%;
+}
+.realButton{
+    height: 7vh;
+    width: 75%;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to right,#035D95,#7EE2FA );
+}
+.haha i{
+    z-index: 545;
+}
